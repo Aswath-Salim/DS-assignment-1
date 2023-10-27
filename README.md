@@ -1,13 +1,12 @@
-
-#include<stdio.h>
-#include<stdlib.h>
-#define max 5
-int main()
-{
+	#include<stdio.h>
+	#include<stdlib.h>
+	#define max 5
+	int main()
+	{
 	int matrix[max][max];
 	int spmatrix[max][3];
 	int matrix1[max][max];
-    int matrix2[max][max];
+        int matrix2[max][max];
 	int spmatrix1[max][3];
 	int amatrix[max][3];
 	int i,j,k,row,r,c,col;
@@ -18,7 +17,7 @@ int main()
 	for(j=0;j<col;j++)
 	 scanf("%d",&matrix[i][j]);
 		
-		printf(" Matrix 1\n");
+        printf(" Matrix 1\n");
 		
  	for(i=0;i<row;i++){
 	for(j=0;j<col;j++){
